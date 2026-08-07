@@ -51,7 +51,9 @@ function adding(){
     return 100;
 }
 
-console.log(sabah());
+
+
+// console.log(sabah()); // eroor , arrow function  not hoisting top.
 
 const sabah = ()=> 120;
 
