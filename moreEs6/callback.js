@@ -32,6 +32,14 @@ function academic(){
 // complex callback
 
 
+function calculator(a,b, cb){
+    let sum = a+b;
+    return cb(sum);
+}
+
+function displayResult(result){
+    return result;
+}
 
 console.log(calculator( 10,20, displayResult))
 
@@ -43,14 +51,6 @@ console.log(calculator( 10,20, displayResult))
 
 
 
-function calculator(a,b, cb){
-    let sum = a+b;
-    return cb(sum);
-}
-
-function displayResult(result){
-    return result;
-}
 
 
 
